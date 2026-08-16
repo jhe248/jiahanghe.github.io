@@ -201,10 +201,12 @@ img { max-width: 100%; height: auto; }
    reading as one entry, so these three override it. */
 .page__content .pub-title { margin: 0 0 0.25em; }
 .page__content .pub-authors { margin: 0; }
-.page__content .pub-note { margin: 0.2em 0 0; }
+.page__content .pub-desc { margin: 0.5em 0 0; }
+.page__content .pub-note { margin: 0.35em 0 0; }
 /* Own name is the one place weight is used, so the reader can find it at a glance. */
 .page__content .pub-self { font-weight: 700; color: var(--global-text-color); }
 .page__content .pub-status { font-style: italic; color: var(--global-text-color-light); }
+.pub-desc { font-size: 1em; line-height: 1.7; color: var(--global-text-color); margin: 0.5em 0 0; }
 .pub-note { font-size: 0.9em; line-height: 1.5; color: var(--global-text-color-light); margin: 0.25em 0 0; }
 @media (max-width: 640px) {
   .pub-item { padding-left: 0; margin-bottom: 1.3em; }
