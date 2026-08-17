@@ -37,9 +37,6 @@ author_profile: false
         and other primary commodity problems; recent history and current developments in
         multilateral trade policy.
       </p>
-      <p class="pub-note">
-        Offered alternating fall semesters, 3 credits. Prerequisites: AAE 215, ECON 101 or 111.
-      </p>
     </div>
 
   </div>
