@@ -214,26 +214,36 @@ img { max-width: 100%; height: auto; }
 }
 
 /* ===== PHOTO GALLERY ===== */
-/* Columns rather than grid: the photos differ enough in aspect ratio that a
-   masonry flow staggers naturally, instead of locking to a rigid baseline. */
-.gallery { column-count: 3; column-gap: 1.1em; margin: 1.6em 0 0; }
-.gallery-item { break-inside: avoid; margin: 0 0 1.1em; }
+/* Editorial masonry: columns rather than grid, so photos of varying aspect
+   stagger naturally. Flush images, hairline shadow, generous gutters. */
+.home-wrapper--wide { max-width: 1080px; }
+
+.gallery { column-gap: 1.6em; margin: 2em 0 0; }
+.gallery--two   { column-count: 2; }
+.gallery--three { column-count: 3; }
+.gallery-item { break-inside: avoid; margin: 0 0 1.6em; }
 .gallery-btn {
   /* flex, not block: a button's text strut would otherwise add a line box
      below the image and leave a pale strip inside the rounded corner */
   display: flex; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in;
-  border-radius: 10px; overflow: hidden; line-height: 0; font-size: 0;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.10);
-  &:hover, &:focus-visible { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16); }
+  border-radius: 4px; overflow: hidden; line-height: 0; font-size: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.25s ease, opacity 0.25s ease;
+  &:hover, &:focus-visible { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); opacity: 0.96; }
   &:focus-visible { outline: 2px solid var(--global-accent-color); outline-offset: 3px; }
 }
 .gallery-btn img { width: 100%; height: auto; display: block; }
 
-@media (max-width: 900px) { .gallery { column-count: 2; } }
-@media (max-width: 480px) { .gallery { column-count: 1; } }
+@media (max-width: 900px) {
+  .gallery--three { column-count: 2; }
+}
+@media (max-width: 560px) {
+  .gallery--two, .gallery--three { column-count: 1; }
+  .gallery { column-gap: 1.1em; }
+  .gallery-item { margin-bottom: 1.1em; }
+}
 @media (prefers-reduced-motion: reduce) {
-  .gallery-btn { transition: none; &:hover, &:focus-visible { transform: none; } }
+  .gallery-btn { transition: none; }
 }
 
 .lightbox {
