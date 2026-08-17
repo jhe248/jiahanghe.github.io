@@ -9,7 +9,7 @@ author_profile: false
   <h1 class="page__title">Miscellaneous</h1>
 
   <div class="page__content">
-    <p>Under construction.</p>
+    <p>I have a cat, her name is <a href="{{ base_path }}/raven/">Raven</a>.</p>
 
     <div class="embed-player">
       <iframe src="https://open.spotify.com/embed/playlist/1n4GqIwZ6RLsOu8ekbXp2k?utm_source=generator"
