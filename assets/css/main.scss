@@ -152,7 +152,7 @@ img { max-width: 100%; height: auto; }
 .home-intro { display: flex; gap: 2.8em; align-items: flex-start; }
 .home-left { flex-shrink: 0; width: 250px; }
 .home-photo { width: 100%; }
-.home-photo img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center top; border-radius: 2px; display: block; }
+.home-photo img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; object-position: center top; border-radius: 10px; display: block; }
 
 .home-location { display: flex; align-items: center; font-family: $modern-sans; font-size: 0.95em;
   margin: 1.1em 0 0; color: var(--global-text-color); }
