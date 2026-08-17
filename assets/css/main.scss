@@ -226,7 +226,7 @@ img { max-width: 100%; height: auto; }
   /* flex, not block: a button's text strut would otherwise add a line box
      below the image and leave a pale strip inside the rounded corner */
   display: flex; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in;
-  border-radius: 4px; overflow: hidden; line-height: 0; font-size: 0;
+  border-radius: 10px; overflow: hidden; line-height: 0; font-size: 0;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
   transition: box-shadow 0.25s ease, opacity 0.25s ease;
   &:hover, &:focus-visible { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); opacity: 0.96; }
@@ -244,6 +244,21 @@ img { max-width: 100%; height: auto; }
 }
 @media (prefers-reduced-motion: reduce) {
   .gallery-btn { transition: none; }
+}
+
+/* One piece per row on the pottery page. Pairs of the same piece share a
+   row; their grid columns are proportioned to the photos' aspect ratios
+   (set inline), which is what renders the two at equal height. */
+.pot-list { margin-top: 2em; }
+.pot-row { margin: 0 0 2.2em; }
+.pot-row--single { display: flex; justify-content: center; }
+.pot-row--pair { display: grid; gap: 1.6em; align-items: start; }
+.pot-w-sm { max-width: 560px; }
+.pot-w-md { max-width: 620px; }
+.pot-w-lg { max-width: 860px; }
+@media (max-width: 560px) {
+  .pot-row { margin-bottom: 1.2em; }
+  .pot-row--pair { grid-template-columns: 1fr !important; gap: 1.2em; }
 }
 
 .lightbox {

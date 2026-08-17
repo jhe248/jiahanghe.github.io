@@ -14,7 +14,12 @@
   var box    = document.getElementById('lightbox');
   var img    = document.getElementById('lightbox-img');
   var count  = document.getElementById('lightbox-count');
-  var sources = buttons.map(function (b) { return b.querySelector('img'); });
+  // data-full lets a thumbnail serve a small file while the lightbox
+  // opens the large one
+  var sources = buttons.map(function (b) {
+    var t = b.querySelector('img');
+    return { src: b.getAttribute('data-full') || t.src, alt: t.alt };
+  });
   var current = 0;
   var lastFocused = null;
 
