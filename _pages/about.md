@@ -42,19 +42,25 @@ redirect_from:
         <a href="https://www.bu.edu/earth/">Department of Earth &amp; Environment</a>
         at Boston University, advised by
         <a href="https://www.bu.edu/earth/profiles/ian-sue-wing/">Professor Ian Sue Wing</a>.
-        My research concerns the economics of climate
-        risk, and in particular the mechanisms through which tropical cyclones and extreme
-        flooding translate into mortality, economic loss and social burden, together with
-        the ways households and regional economies adapt in their aftermath.
+        As part of the NSF-funded <a href="https://www.drc.udel.edu/cheer/">CHEER Hub</a> led by
+        the University of Delaware, I build computational models that connect tropical cyclone
+        hazards, infrastructure systems, household decision-making, and regional economic
+        outcomes.
       </p>
 
       <p class="home-bio">
-        My work combines general equilibrium modeling with parcel- and household-level data,
-        tracing disaster impacts through infrastructure failure, power outages and healthcare
-        disruption. Prior to Boston University, I studied
+        My current research examines how tropical cyclones and extreme flooding translate
+        into mortality, economic loss, and social burden. I combine general equilibrium
+        modeling with parcel- and household-level data, and I am working with <a href="https://innsure.org/">InnSure</a> on a
+        social burden metric for Massachusetts coastal communities.
+      </p>
+
+      <p class="home-bio">
+        Before Boston University, I studied
         <a href="https://aae.wisc.edu/">Agricultural and Applied Economics</a> and
-        <a href="https://nelson.wisc.edu/">Environmental Studies</a>
-        at the University of Wisconsin&ndash;Madison.
+        <a href="https://nelson.wisc.edu/">Environmental Studies</a> at the <a href="https://www.wisc.edu/">University of
+        Wisconsin&ndash;Madison</a>. I am especially interested in models that trace not only
+        how much a disaster costs, but who bears the cost, and how communities adapt.
       </p>
 
       <ul class="contact-list">
