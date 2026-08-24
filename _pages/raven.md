@@ -11,7 +11,7 @@ author_profile: false
   <h1 class="page__title">Raven</h1>
 
   <div class="page__content">
-    <p>My cat. She supervises most of the writing that happens here.</p>
+    <p> Raven. She supervises most of the writing that happens here.</p>
   </div>
 
   <div class="gallery gallery--two" id="gallery">
