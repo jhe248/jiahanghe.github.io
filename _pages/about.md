@@ -40,10 +40,10 @@ redirect_from:
       <p class="home-bio">
         I am a PhD student in the
         <a href="https://www.bu.edu/earth/">Department of Earth &amp; Environment</a>
-        at <a href="https://www.bu.edu/">Boston University</a>, advised by
+        at Boston University, advised by
         <a href="https://www.bu.edu/earth/profiles/ian-sue-wing/">Professor Ian Sue Wing</a>.
         As part of the NSF-funded <a href="https://www.drc.udel.edu/cheer/">CHEER Hub</a> led by
-        the <a href="https://www.udel.edu/">University of Delaware</a>, I build computational models that connect tropical cyclone
+        the University of Delaware, I build computational models that connect tropical cyclone
         hazards, infrastructure systems, household decision-making, and regional economic
         outcomes.
       </p>
