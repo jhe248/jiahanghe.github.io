@@ -18,7 +18,7 @@ the lightbox loads the large one from data-full.
   <h1 class="page__title">Pottery</h1>
 
   <div class="page__content">
-    <p>I do pottery sometimes. Here is some of my work.</p>
+    <p> As you can see, I do pottery better than I take photos. </p>
   </div>
 
   <div class="pot-list">
