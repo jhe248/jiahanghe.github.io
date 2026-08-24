@@ -40,10 +40,10 @@ redirect_from:
       <p class="home-bio">
         I am a PhD student in the
         <a href="https://www.bu.edu/earth/">Department of Earth &amp; Environment</a>
-        at Boston University, advised by
+        at <a href="https://www.bu.edu/">Boston University</a>, advised by
         <a href="https://www.bu.edu/earth/profiles/ian-sue-wing/">Professor Ian Sue Wing</a>.
         As part of the NSF-funded <a href="https://www.drc.udel.edu/cheer/">CHEER Hub</a> led by
-        the University of Delaware, I build computational models that connect tropical cyclone
+        the <a href="https://www.udel.edu/">University of Delaware</a>, I build computational models that connect tropical cyclone
         hazards, infrastructure systems, household decision-making, and regional economic
         outcomes.
       </p>
@@ -51,15 +51,15 @@ redirect_from:
       <p class="home-bio">
         My current research examines how tropical cyclones and extreme flooding translate
         into mortality, economic loss, and social burden. I combine general equilibrium
-        modeling with parcel- and household-level data, and I am working with InnSure on a
+        modeling with parcel- and household-level data, and I am working with <a href="https://innsure.org/">InnSure</a> on a
         social burden metric for Massachusetts coastal communities.
       </p>
 
       <p class="home-bio">
         Before Boston University, I studied
         <a href="https://aae.wisc.edu/">Agricultural and Applied Economics</a> and
-        <a href="https://nelson.wisc.edu/">Environmental Studies</a> at the University of
-        Wisconsin&ndash;Madison. I am especially interested in models that trace not only
+        <a href="https://nelson.wisc.edu/">Environmental Studies</a> at the <a href="https://www.wisc.edu/">University of
+        Wisconsin&ndash;Madison</a>. I am especially interested in models that trace not only
         how much a disaster costs, but who bears the cost, and how communities adapt.
       </p>
 
